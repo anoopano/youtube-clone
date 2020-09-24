@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.header__logo {
+    object-fit: contain;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__input {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.header__input>input {
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.header__inputButton {
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header__icon {
+    margin-right: 10px;
+}
